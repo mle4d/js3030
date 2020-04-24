@@ -1,0 +1,5 @@
+html {
+  background: rgb(47,180,97);
+  background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%);
+  background-size: 20px 20px;
+}
