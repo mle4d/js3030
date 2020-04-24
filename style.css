@@ -3,3 +3,39 @@ html {
   background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%);
   background-size: 20px 20px;
 }
+header {
+  border: solid red 1px;
+  width: 80vw;
+  height: 20vh;
+  position: fixed;
+  left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-content: flex-end; */
+  align-items: flex-end;
+}
+.W {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border: yellow solid 1px;
+  height: 80%;
+  width: 10%;
+}
+#w1 {
+  height: 100%;
+  width: 20%;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%);
+  background-size: 20px 20px;
+}
+#w2 {
+  height: 20%;
+  width: 20%;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%);
+  background-size: 20px 20px;
+}
+
