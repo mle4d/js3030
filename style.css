@@ -283,3 +283,60 @@ header {
   background-size: 20px 20px;
   border: solid 1px rgba(28,79,145,1);
 }
+.G {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    height: 100px;
+    width: 100px;
+}
+#g1 {
+  height: 98px;
+  width: 18px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(220,49,39,1);
+}
+.Garms {
+  height: 100px;
+  width: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#g2 {
+  height: 18px;
+  width: 38px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(220,49,39,1);
+}
+#g3 {
+  height: 20px;
+  width: 38px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) right center no-repeat;
+  background-size: 20px 20px;
+}
+#g4 {
+  height: 18px;
+  width: 38px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(220,49,39,1);
+}
+#g5 {
+  width: 18px;
+  height: 58px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(220,49,39,1);
+  /* align-self: flex-end; */
+}
