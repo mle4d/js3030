@@ -181,7 +181,7 @@ header {
 #a21 {
   height: 18px;
   width: 18px;
-  background: rgb(248,196,0);
+  background: rgb(27,151,237);
   background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center center no-repeat;
   background-size: 20px 20px;
   border: solid 1px rgba(28,79,145,1);
@@ -190,7 +190,7 @@ header {
 #a22 {
   height: 38px;
   width: 18px;
-  background: rgb(248,196,0);
+  background: rgb(27,151,237);
   background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center top;
   background-size: 20px 20px;
   border: solid 1px rgba(28,79,145,1);
@@ -198,7 +198,7 @@ header {
 #a23 {
   height: 18px;
   width: 18px;
-  background: rgb(248,196,0);
+  background: rgb(27,151,237);
   background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center top;
   background-size: 20px 20px;
   border: solid 1px rgba(28,79,145,1);
@@ -207,7 +207,7 @@ header {
 #a24 {
   height: 38px;
   width: 18px;
-  background: rgb(248,196,0);
+  background: rgb(27,151,237);
   background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center top;
   background-size: 20px 20px;
   border: solid 1px rgba(28,79,145,1);
@@ -219,4 +219,67 @@ header {
   background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
   background-size: 20px 20px;
   border: solid 1px rgba(220,49,39,1);
+}
+.L {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100px;
+  width: 80px;
+}
+#l1 {
+  height: 98px;
+  width: 18px;
+  background: rgb(248,196,0);
+  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center left;
+  background-size: 20px 20px;
+  border: solid 1px rgba(217,126,0,1);
+}
+#l2 {
+  height: 18px;
+  width: 38px;
+  background: rgb(248,196,0);
+  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center left;
+  background-size: 20px 20px;
+  border: solid 1px rgba(217,126,0,1);
+}
+.E {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100px;
+  width: 80px;
+}
+#e1 {
+  height: 98px;
+  width: 18px;
+  background: rgb(27,151,237);
+  background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center top;
+  background-size: 20px 20px;
+  border: solid 1px rgba(28,79,145,1);
+}
+.Earms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100px;
+}
+#e2 {
+  width: 38px;
+  height: 18px;
+  background: rgb(27,151,237);
+  background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center left;
+  background-size: 20px 20px;
+  border: solid 1px rgba(28,79,145,1);
+}
+#e3 {
+  width: 18px;
+  height: 18px;
+  background: rgb(27,151,237);
+  background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center left;
+  background-size: 20px 20px;
+  border: solid 1px rgba(28,79,145,1);
 }
