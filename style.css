@@ -98,8 +98,7 @@ header {
   justify-content: flex-start;
   align-items: flex-start;
   height: 100px;
-  width: 100px;
-  /* border: solid 1px yellow; */
+  width: 80px;
 }
 #c1 {
   height: 18px;
@@ -116,4 +115,51 @@ header {
   background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center center;
   background-size: 20px 20px;
   border: solid 1px rgba(28,79,145,1);
+}
+.K {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+#k1 {
+  height: 98px;
+  width: 18px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(220,49,39,1);
+}
+#k2 {
+  height: 18px;
+  width: 18px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(220,49,39,1);
+}
+.klegs {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 40px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+.klegtop {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-between;
+}
+.klegbottom {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+  align-content: flex-end;
 }
