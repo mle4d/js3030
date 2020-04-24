@@ -163,3 +163,18 @@ header {
   justify-content: space-between;
   align-content: flex-end;
 }
+.Dash {
+  height: 100px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#dash {
+  height: 18px;
+  width: 38px;
+  background: rgb(248,196,0);
+  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center left;
+  background-size: 20px 20px;
+  border: solid 1px rgba(217,126,0,1);
+}
