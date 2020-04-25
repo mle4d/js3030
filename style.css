@@ -4,16 +4,14 @@ html {
   background-size: 20px 20px;
 }
 header {
-  /* border: solid red 1px; */
-  width: 82vw;
+  width: 960px;
   height: 19vh;
   position: fixed;
-  left: 9.5%;
+  left: 10%;
   top: 3%;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
-  /* align-content: flex-end; */
+  justify-content: space-between;
   align-items: flex-end;
 }
 .W {
@@ -98,7 +96,7 @@ header {
   justify-content: flex-start;
   align-items: flex-start;
   height: 100px;
-  width: 80px;
+  width: 82px;
 }
 #c1 {
   height: 18px;
@@ -169,6 +167,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
 }
 #dash {
   height: 18px;
@@ -223,10 +222,10 @@ header {
 .L {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
   height: 100px;
-  width: 80px;
+  width: 100px;
 }
 #l1 {
   height: 98px;
@@ -247,10 +246,10 @@ header {
 .E {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-end;
   height: 100px;
-  width: 80px;
+  width: 95px;
 }
 #e1 {
   height: 98px;
@@ -286,7 +285,7 @@ header {
 .G {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-content: flex-end;
     align-items: flex-end;
     height: 100px;
@@ -296,7 +295,7 @@ header {
   height: 98px;
   width: 18px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
+  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
   background-size: 20px 20px;
   border: solid 1px rgba(220,49,39,1);
 }
@@ -338,5 +337,39 @@ header {
   background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
   background-size: 20px 20px;
   border: solid 1px rgba(220,49,39,1);
-  /* align-self: flex-end; */
+}
+.O {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+#o1 {
+  width: 58px;
+  height: 18px;
+  background: rgb(248,196,0);
+  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) left center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(217,126,0,1);
+}
+
+.Omiddle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+}
+#o2 {
+  width: 18px;
+  height: 58px;
+  background: rgb(248,196,0);
+  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center center;
+  background-size: 20px 20px;
+  border: solid 1px rgba(217,126,0,1);
 }
