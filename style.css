@@ -26,17 +26,17 @@ header {
   height: 98px;
   width: 18px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) center center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 #w2 {
   height: 18px;
   width: 18px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) center center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 .A {
   display: flex;
@@ -126,17 +126,17 @@ header {
   height: 98px;
   width: 18px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) center center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 #k2 {
   height: 18px;
   width: 18px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) center center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 .klegs {
   display: flex;
@@ -215,9 +215,9 @@ header {
   height: 18px;
   width: 38px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) left center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 .L {
   display: flex;
@@ -295,9 +295,9 @@ header {
   height: 98px;
   width: 18px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) center center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 .Garms {
   height: 100px;
@@ -311,32 +311,32 @@ header {
   height: 18px;
   width: 38px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) left center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 #g3 {
   height: 20px;
   width: 38px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) right center no-repeat;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) right center no-repeat;
   background-size: 20px 20px;
 }
 #g4 {
   height: 18px;
   width: 38px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) left center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) left center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 #g5 {
   width: 18px;
   height: 58px;
   background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(242,48,38,1) 25%, rgba(220,49,39,1) 50%, rgba(242,48,38,1) 100%) center center;
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) left center;
   background-size: 20px 20px;
-  border: solid 1px rgba(220,49,39,1);
+  border: solid 1px rgba(179, 39, 31, 1);
 }
 .O {
   display: flex;
