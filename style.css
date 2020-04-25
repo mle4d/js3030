@@ -7,7 +7,7 @@ header {
   width: 960px;
   height: 19vh;
   position: fixed;
-  left: 10%;
+  left: 12.6%;
   top: 3%;
   display: flex;
   flex-direction: row;
@@ -372,4 +372,13 @@ header {
   background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center center;
   background-size: 20px 20px;
   border: solid 1px rgba(217,126,0,1);
+}
+.game {
+  position: fixed;
+  top: 25.5%;
+  left: 18.7%;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  border: solid yellow 1px;
 }
