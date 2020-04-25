@@ -71,7 +71,7 @@ header {
   height: 18px;
   width: 18px;
   background: rgb(248,196,0);
-  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center top;
+  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center center;
   background-size: 20px 20px;
   border: solid 1px rgba(217,126,0,1);
 }
@@ -198,7 +198,7 @@ header {
   height: 18px;
   width: 18px;
   background: rgb(27,151,237);
-  background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center top;
+  background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) center center;
   background-size: 20px 20px;
   border: solid 1px rgba(28,79,145,1);
 }
@@ -382,7 +382,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: solid yellow 1px;
 }
 .topRow {
   width: 800px;
