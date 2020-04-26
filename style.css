@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Kumar+One+Outline&family=Press+Start+2P&family=Saira+Stencil+One&display=swap');
 html {
   background: rgb(47,180,97);
   background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%);
@@ -401,7 +401,7 @@ header {
 .game {
   position: fixed;
   top: 25.5%;
-  left: 18.7%;
+  left: 28.1%;
   width: 800px;
   height: 400px;
   display: flex;
@@ -495,24 +495,28 @@ button {
   position: fixed;
   left: 20px;
   bottom: 2%;
-  width: 200px;
+  width: 270px;
   height: 80px;
-  background: rgb(242,48,38);
-  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) top left;
-  background-size: 20px 20px;
-  border: solid 1px rgba(179, 39, 31, 1);
+  background: transparent;
+  border: none;
   outline: none;
 }
 #start {
-  font-size: 58px;
-  background: rgb(47,180,97);
-  background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%) top left;
+  font-size: 65px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) top center;
   background-size: 20px 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Press Start 2P', cursive;
   text-align: center;
-  margin-top: -1%;
-  margin-left: -3%;
-  letter-spacing: 10px;
+  margin-top: 1%;
+  margin-left: -2.5%;
+  letter-spacing: 0px;
+}
+#start:hover {
+  font-size: 63px;
+}
+#start:active {
+  font-size: 65px;
 }
