@@ -13,7 +13,6 @@ const bricks = document.querySelectorAll('.brick');
     const idx = Math.floor(Math.random() * bricks.length);
     const brick = bricks[idx];
     if (brick === lastbrick) {
-      console.log('Ah nah thats the same one bud');
       return randombrick(bricks);
     }
     lastbrick = brick;
@@ -39,7 +38,7 @@ const bricks = document.querySelectorAll('.brick');
   }
 
   function bonk(e) {
-    if(!e.isTrusted) return; // cheater!
+    if(!e.isTrusted) return;
     score++;
     this.parentNode.classList.remove('up');
     scoreBoard.textContent = score;
