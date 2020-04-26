@@ -520,3 +520,18 @@ button {
 #start:active {
   font-size: 65px;
 }
+.scorenum {
+  position: fixed;
+  left: 101px;
+  top: 51%;
+  font-size: 138px;
+  /* font-weight: 0; */
+  line-height: 137px;
+  background: rgb(248,196,0);
+  background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) center center;
+  background-size: 20px 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
