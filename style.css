@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Kumar+One+Outline&family=Press+Start+2P&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 html {
   background: rgb(47,180,97);
   background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%);
@@ -494,7 +494,7 @@ header {
 button {
   position: fixed;
   left: 21px;
-  bottom: 2%;
+  bottom: 50px;
   width: 300px;
   height: 100px;
   background: rgb(242,48,38);
@@ -524,14 +524,10 @@ button {
 #start:active {
   font-size: 65px;
 }
-.scorebg {
+.score {
   position: fixed;
   left: 38px;
-  top: 240px;
-  width: 280px;
-  height: 80px;
-}
-.score {
+  top: 80px;
   font-size: 48px;
   font-family: 'Press Start 2P', cursive;
   background: rgb(27,151,237);
@@ -545,7 +541,7 @@ button {
 .scorenum {
   position: fixed;
   left: 100px;
-  top: 360px;
+  top: 260px;
   font-size: 138px;
   line-height: 137px;
   background: rgb(248,196,0);
