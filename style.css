@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 html {
   background: rgb(47,180,97);
   background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%);
@@ -489,4 +490,29 @@ header {
   top: -100%;
   opacity: 1;
   z-index: +1;
+}
+button {
+  position: fixed;
+  left: 20px;
+  bottom: 2%;
+  width: 200px;
+  height: 80px;
+  background: rgb(242,48,38);
+  background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) top left;
+  background-size: 20px 20px;
+  border: solid 1px rgba(179, 39, 31, 1);
+  outline: none;
+}
+#start {
+  font-size: 58px;
+  background: rgb(47,180,97);
+  background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%) top left;
+  background-size: 20px 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  margin-top: -1%;
+  margin-left: -3%;
+  letter-spacing: 10px;
 }
