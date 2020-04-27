@@ -4,8 +4,11 @@ html {
   background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%);
   background-size: 20px 20px;
   cursor: url(assets/minifighand.png), auto;
+  overflow: hidden;
 }
-
+body {
+  overscroll-behavior: none;
+}
 header {
   height: 16vh;
   width: 81vw;
@@ -16,7 +19,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  /* border: yellow solid 1px; */
 }
 .W {
   display: flex;
@@ -403,7 +405,6 @@ header {
   border: solid 1px rgba(217,126,0,1);
 }
 .container {
-  /* border: yellow solid 1px; */
   width: 90.5vw;
   height: 70vh;
   position: fixed;
@@ -418,7 +419,7 @@ header {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 button {
@@ -432,7 +433,7 @@ button {
   outline: none;
 }
 #start {
-  font-size: 65px;
+  font-size: 10vmin;
   background: rgb(47,180,97);
   background: radial-gradient(circle, rgba(47,180,97,1) 25%, rgba(35,158,68,1) 50%, rgba(45,170,78,1) 100%) left top;
   background-size: 20px 20px;
@@ -446,23 +447,21 @@ button {
   line-height: 80px;
 }
 #start:hover {
-  font-size: 63px;
+  font-size: 9vmin;
 }
 .score {
-  border: yellow 1px solid;
-  font-size: 48px;
+  font-size: 10vmin;
   font-family: 'Press Start 2P', cursive;
   background: rgb(27,151,237);
   background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) left top;
   background-size: 20px 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 0%;
   letter-spacing: 8px;
 }
 .scorenum {
-  font-size: 138px;
-  line-height: 137px;
+  font-size: 20vmin;
+  line-height: 20vmin;
   background: rgb(248,196,0);
   background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) top left;
   background-size: 20px 20px;
@@ -470,8 +469,9 @@ button {
   -webkit-text-fill-color: transparent;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  width: 50%;
-  height: 33%;
+  width: 100%;
+  height: 30%;
+  margin-top: -10%;
 }
 .game {
   width: 65.5%;
