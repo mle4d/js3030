@@ -445,7 +445,7 @@ button {
   margin-top: 6%;
   margin-left: 3%;
   letter-spacing: 5.2px;
-  line-height: 80px;
+  line-height: 100%;
 }
 #start:hover {
   font-size: 9vmin;
