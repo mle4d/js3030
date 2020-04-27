@@ -7,7 +7,7 @@ html {
 }
 
 header {
-  height: 19vh;
+  height: 16vh;
   width: 81vw;
   position: fixed;
   left: 9.3%;
@@ -16,14 +16,15 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  /* border: yellow solid 1px; */
 }
 .W {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 10%
 }
 #w1 {
   height: 98px;
@@ -46,8 +47,8 @@ header {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 10%
 }
 #h1 {
   height: 98px;
@@ -70,8 +71,8 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 10%
 }
 #a1 {
   height: 18px;
@@ -123,8 +124,8 @@ header {
   justify-content: flex-start;
   align-content: flex-end;
   align-items: flex-start;
-  height: 100px;
-  width: 83px;
+  height: 100%;
+  width: 8%
 }
 #c1 {
   height: 18px;
@@ -147,8 +148,8 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 10%
 }
 #k1 {
   height: 98px;
@@ -190,8 +191,8 @@ header {
   align-content: flex-end;
 }
 .Dash {
-  height: 100px;
-  width: 40px;
+  height: 100%;
+  width: 4%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -252,8 +253,8 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 10%
 }
 #l1 {
   height: 98px;
@@ -276,8 +277,8 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
-  height: 100px;
-  width: 80px;
+  height: 100%;
+  width: 8%
 }
 #e1 {
   height: 98px;
@@ -316,8 +317,8 @@ header {
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-end;
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 10%
 }
 #g1 {
   height: 98px;
@@ -372,8 +373,8 @@ header {
   justify-content: flex-start;
   align-content: center;
   align-items: center;
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 9%
 }
 #o1 {
   width: 58px;
