@@ -576,3 +576,6 @@ button {
   opacity: 1;
   z-index: +1;
 }
+@media screen and (max-width: 800px){
+
+}
