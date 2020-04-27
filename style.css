@@ -26,6 +26,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+  align-self: flex-end;
   height: 100%;
   width: 10%
 }
@@ -50,6 +51,7 @@ header {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  align-self: flex-end;
   height: 100%;
   width: 10%
 }
@@ -74,6 +76,7 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  align-self: flex-end;
   height: 100%;
   width: 10%
 }
@@ -127,6 +130,7 @@ header {
   justify-content: flex-start;
   align-content: flex-end;
   align-items: flex-start;
+  align-self: flex-end;
   height: 100%;
   width: 8%
 }
@@ -151,6 +155,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  align-self: flex-end;
   height: 100%;
   width: 10%
 }
@@ -200,6 +205,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  align-self: flex-end;
 }
 #dash {
   height: 18px;
@@ -256,6 +262,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
+  align-self: flex-end;
   height: 100%;
   width: 10%
 }
@@ -280,6 +287,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+  align-self: flex-end;
   height: 100%;
   width: 8%
 }
@@ -320,6 +328,7 @@ header {
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-end;
+    align-self: flex-end;
     height: 100%;
     width: 10%
 }
@@ -376,6 +385,7 @@ header {
   justify-content: flex-start;
   align-content: center;
   align-items: center;
+  align-self: flex-end;
   height: 100%;
   width: 9%
 }
@@ -424,7 +434,6 @@ header {
   align-items: center;
 }
 button {
-  /* width: 87%; */
   height: 22%;
   background: rgb(242,48,38);
   background: radial-gradient(circle, rgba(252, 59, 48, 1) 25%, rgba(179, 39, 31, 1) 50%, rgba(242,48,38,1) 100%) left top;
@@ -445,7 +454,7 @@ button {
   margin-top: 6%;
   margin-left: 3%;
   letter-spacing: 5.2px;
-  line-height: 100%;
+  line-height: 120%;
 }
 #start:hover {
   font-size: 9vmin;
