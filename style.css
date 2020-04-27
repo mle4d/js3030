@@ -10,8 +10,8 @@ body {
   overscroll-behavior: none;
 }
 header {
-  height: 16vh;
-  width: 81vw;
+  height: 100px;
+  width: 1040px;
   position: fixed;
   left: 9.3%;
   top: 3%;
