@@ -581,12 +581,12 @@ button {
   header {
   flex-wrap: wrap;
   width: 600px;
-  margin-left: -120px;
+  margin-left: -100px;
   margin-top: -160px;
   }
   .container {
     margin-top: 60px;
-    margin-left: -160px;
+    margin-left: -100px;
     margin-right: 0px;
     height: 800px;
     width: 600px;
