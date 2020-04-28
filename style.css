@@ -575,6 +575,9 @@ button {
   z-index: +1;
 }
 @media screen and (max-width: 800px){
+  body {
+    transform: scaleX(.3) scaleY(.3);
+  }
   header {
     height: 50px;
     width: 540px;
