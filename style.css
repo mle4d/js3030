@@ -424,7 +424,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: red solid 1px;
 }
 .stats {
   width: 360px;
@@ -488,16 +487,16 @@ button {
   margin-top: -100px;
 }
 .game {
-  width: 65.5%;
-  height: 100%;
+  width: 758px;
+  height: 440px;
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
   justify-content: space-between;
+  align-content: center;
 }
 .topRow {
-  width: 100%;
-  height: 50%;
+  width: 780px;
+  height: 220px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -505,16 +504,16 @@ button {
   align-self: center;
 }
 .bottomRow {
-  width: 100%;
-  height: 50%;
+  width: 780px;
+  height: 220px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
 }
 .brick {
-  width: 26.5%;
-  height: 45%;
+  width: 200px;
+  height: 100px;
 }
 .brick1, .brick5 {
   background: rgb(248,196,0);
