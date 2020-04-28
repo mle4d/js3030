@@ -629,9 +629,6 @@ button {
   }
 }
 @media screen and (max-width: 320px) {
-  html {
-    background-size: 10px 10px;
-  }
   header {
     flex-wrap: wrap;
     width: 600px;
