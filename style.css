@@ -582,6 +582,22 @@ button {
   flex-wrap: wrap;
   width: 600px;
   margin-left: -120px;
-  margin-top: -20%;
+  margin-top: -160px;
+  }
+  .container {
+    margin-top: 60px;
+    margin-left: -160px;
+    margin-right: 0px;
+    border: solid red 1px;
+    height: 800px;
+    width: 600px;
+    align-items: flex-start;
+  }
+  .stats {
+    width: 600px;
+    height: 100px;
+    flex-direction: row;
+    transform: scaleX(.6) scaleY(.6);
+    margin-left: -60px;
   }
 }
