@@ -414,7 +414,7 @@ header {
 }
 .container {
   /* width: 1160px; */
-  height: 440px;
+  /* height: 440px; */
   position: fixed;
   left: 60px;
   top: 140px;
