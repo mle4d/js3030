@@ -576,10 +576,12 @@ button {
 }
 @media screen and (max-width: 800px){
   body {
-    transform: scaleX(.3) scaleY(.3);
+    transform: scaleX(.5) scaleY(.5);
   }
   header {
-    height: 50px;
-    width: 540px;
+  flex-wrap: wrap;
+  width: 600px;
+  margin-left: -120px;
+  margin-top: -20%;
   }
 }
