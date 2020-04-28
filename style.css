@@ -11,10 +11,7 @@ body {
 }
 header {
   height: 100px;
-  /* width: 1040px; */
-  position: fixed;
-  left: 9.3%;
-  top: 3%;
+  margin: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -424,10 +421,11 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
 }
 .stats {
   width: 360px;
-  height: 440px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -484,7 +482,7 @@ button {
   text-align: center;
   width: 360px;
   height: 140px;
-  margin-top: -100px;
+  margin-top: -60px;
 }
 .game {
   width: 758px;
@@ -583,6 +581,5 @@ button {
   header {
     height: 50px;
     width: 540px;
-
   }
 }
