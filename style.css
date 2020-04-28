@@ -415,9 +415,9 @@ header {
 .container {
   /* width: 1160px; */
   /* height: 440px; */
-  position: fixed;
+  /* position: fixed;
   left: 60px;
-  top: 140px;
+  top: 140px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
