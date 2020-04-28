@@ -575,6 +575,9 @@ button {
   z-index: +1;
 }
 @media screen and (max-width: 800px){
+  html {
+    background-size: 10px 10px;
+  }
   body {
     transform: scaleX(.5) scaleY(.5);
   }
@@ -626,6 +629,9 @@ button {
   }
 }
 @media screen and (max-width: 320px) {
+  html {
+    background-size: 10px 10px;
+  }
   header {
     flex-wrap: wrap;
     width: 600px;
