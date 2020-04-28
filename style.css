@@ -431,9 +431,10 @@ header {
   height: 440px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  border: solid yellow 1px;
+  align-content: flex-start;
+  text-align: center;
 }
 button {
   height: 100px;
@@ -464,18 +465,17 @@ button {
   cursor: url(assets/minifighand.png), auto;
 }
 .score {
-  font-size: 9vmin;
+  font-size: 60px;
   font-family: 'Press Start 2P', cursive;
   background: rgb(27,151,237);
   background: radial-gradient(circle, rgba(27,151,237,1) 25%, rgba(28,79,145,1) 50%, rgba(27,151,237,1) 100%) left top;
   background-size: 20px 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 8px;
+  letter-spacing: 5px;
 }
 .scorenum {
-  font-size: 20vmin;
-  line-height: 20vmin;
+  font-size: 160px;
   background: rgb(248,196,0);
   background: radial-gradient(circle, rgba(248,196,0,1) 25%, rgba(217,126,0,1) 50%, rgba(248,196,0,1) 100%) top left;
   background-size: 20px 20px;
@@ -483,9 +483,9 @@ button {
   -webkit-text-fill-color: transparent;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  width: 100%;
-  height: 30%;
-  margin-top: -10%;
+  width: 360px;
+  height: 140px;
+  margin-top: -100px;
 }
 .game {
   width: 65.5%;
