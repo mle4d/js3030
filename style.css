@@ -477,9 +477,7 @@ button {
   -webkit-text-fill-color: transparent;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  width: 360px;
-  height: 140px;
-  margin-top: -60px;
+  margin-top: -40px;
 }
 .game {
   width: 758px;
