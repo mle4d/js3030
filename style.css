@@ -588,16 +588,94 @@ button {
     margin-top: 60px;
     margin-left: -160px;
     margin-right: 0px;
-    border: solid red 1px;
     height: 800px;
     width: 600px;
     align-items: flex-start;
+    flex-direction: column;
   }
   .stats {
-    width: 600px;
+    width: 800px;
     height: 100px;
     flex-direction: row;
-    transform: scaleX(.6) scaleY(.6);
-    margin-left: -60px;
+    transform: scaleX(.8) scaleY(.8);
+    margin-left: -100px;
+    align-items: baseline;
+  }
+  .scorenum {
+    font-size: 100px;
+    margin-top: 0px;
+  }
+  .game {
+     width: 600px; 
+    height: 600px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+  }
+  .topRow {
+    flex-direction: column;
+    height: 600px;
+    width: 200px;
+  }
+  .bottomRow {
+    height: 600px;
+    width: 200px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    flex-wrap: wrap;
+    width: 600px;
+    margin-left: -140px;
+    margin-top: -160px;
+    }
+  .container {
+    margin-top: 80px;
+    margin-left: -160px;
+    margin-right: 0px;
+    height: 700px;
+    width: 600px;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+  }
+  .stats {
+    width: 800px;
+    height: 100px;
+    flex-direction: row;
+    transform: scaleX(.7) scaleY(.7);
+    margin-left: -100px;
+    align-items: baseline;
+  }
+  .game {
+    width: 300px; 
+   height: 500px; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: flex-start;
+   align-content: flex-start;
+   flex-direction: column;
+   transform: scaleX(.8) scaleY(.8);
+   margin-top: -200px;
+ }
+  .topRow {
+    flex-direction: row;
+    align-items: flex-start;
+   align-content: flex-start;
+    height: 200px;
+    width: 700px;
+  }
+
+  .bottomRow {
+    flex-direction: row;
+    align-items: flex-start;
+   align-content: flex-start;
+    height: 200px;
+    width: 700px;
+    flex-direction: row;
   }
 }
