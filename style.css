@@ -413,8 +413,8 @@ header {
   border: solid 1px rgba(217,126,0,1);
 }
 .container {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
